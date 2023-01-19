@@ -1,0 +1,400 @@
+/* CSS Document */
+*{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.main{
+	border: 15px solid #3944D1;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+} 
+.ani{
+	animation: ani .4s linear;
+	background-color: palegreen;
+}
+@keyframes ani {
+	0%{opacity: 0;}
+	50%{opacity: 0.5;}
+	100%{opacity: 1;}
+}
+body{
+	background-color: #95DCF7;
+	margin: 0;
+}
+h2,h3{
+	text-align: center;
+	font-size: 22px;
+}
+.harf{
+	position: relative;
+	left: 30px;
+	top: 0px;
+	color: #3944D1;
+}
+.contn{
+	text-align: center;
+	font-size: 48px;
+	position: absolute;
+	top: 400px;
+	left: 300px;
+}
+.x{
+	color: red;
+	width: 100px;
+	height: 100px;
+}
+.giris{
+	border-top: 8px solid #3944D1;
+	border-bottom: 8px solid #3944D1;
+	width: 100px;
+	height: 100px;
+	background-color: palegreen;
+	position: absolute;
+	top: 295px;
+	left: 0px;	
+	
+}
+.item{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+	margin-top: 0;
+}
+
+.giris:hover .item{
+	display: block;	
+}
+.item1{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item:hover .item1{
+	display: block;	
+}
+.item2{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item1:hover .item2{
+	display: block;	
+}
+.item3{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item2:hover .item3{
+	display: block;	
+}.item4{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item3:hover .item4{
+	display: block;	
+}
+.item5{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item4:hover .item5{
+	display: block;	
+}
+.item6{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item5:hover .item6{
+	display: block;	
+}
+.item7{
+	display: none;
+	width: 100px;
+	height: 108px;
+	border: 8px solid #3944D1;
+	border-top: none;
+	border-left: none;
+	border-radius: 0 0 10px 0;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item6:hover .item7{
+	display: block;	
+}
+.item8{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border-left: 8px solid #3944D1;
+	position: absolute;
+	top: -100px;
+	left: -8px;
+}
+.item7:hover .item8{
+	display: block;	
+}
+.item9{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right:none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item8:hover .item9{
+	display: block;	
+}
+.item10{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-radius: 0 10px 10px 0;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+	padding: 0;
+	color: red;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 84px;
+	text-align: center;
+	
+}
+.item9:hover .item10{
+	display: block;	
+}
+.item11{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-right: none;
+	border-bottom: none;
+	border-radius: 10px 0 0 0;
+	position: absolute;
+	top: -100px;
+	left: -8px;
+	padding: 0;
+	background-color: palegreen;
+}
+.item8:hover .item11{
+	display: block;	
+}
+.item12{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	border-bottom:none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item11:hover .item12{
+	display: block;	
+}
+.item13{
+	display: none;
+	width: 100px;
+	height: 84px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item12:hover .item13{
+	display: block;	
+}
+.item14{
+	display: none;
+	width: 100px;
+	height: 84px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-bottom: none;
+	border-radius: 0 10px 0 0;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item13:hover .item14{
+	display: block;	
+}
+.item15{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-top: none;
+	border-bottom: none;
+	position: absolute;
+	top: 84px;
+	left: -8px;
+}
+.item14:hover .item15{
+	display: block;	
+}
+.item16{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-top: none;
+	border-bottom: none;
+	position: absolute;
+	top: 84px;
+	left: -8px;
+}
+.item15:hover .item16{
+	display: block;	
+}
+.item17{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-top: none;
+	border-right: none;
+	border-radius: 0 0 0 10px;
+	position: absolute;
+	top: 100px;
+	left: -8px;
+}
+.item16:hover .item17{
+	display: block;	
+}
+.item18{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item17:hover .item18{
+	display: block;	
+}
+.item19{
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #3944D1;
+	background-color: palegreen;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	top: -8px;
+	left: 100px;
+}
+.item18:hover .item19{
+	display: block;	
+}
+.cikis{
+	display: block;
+	border-top: 8px solid #3944D1;
+	border-bottom: 8px solid #3944D1;
+	border-radius: 0 10px 10px 0;;
+	width: 122px;
+	height: 100px;
+	background-color: palegreen;
+	position: absolute;
+	top: 377.5px;
+	right: 0px;
+}
+.uyari{
+	display: none;
+	background-color: red;
+	width:122px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;	
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	text-align: center;
+	vertical-align: center;
+}
+.cikis:hover .uyari{
+	display: block;
+}
+
+
+.bag{
+	position: absolute;
+	bottom: 50px;
+	right: 70px;
+	text-decoration: none;
+	color: #3944D1;
+	font-weight: bold;
+	border:2px solid #3944D1;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #3944D1;
+}
+.bag:hover{
+	background-color: #3944D1;
+	color: white;
+}

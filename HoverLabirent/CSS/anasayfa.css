@@ -1,0 +1,46 @@
+/* CSS Document */
+body{
+	background-color:beige;
+}
+h1{
+	text-align: center;
+}
+.tablo{
+	position: absolute;
+	top: 150px;
+	left: 300px;
+}
+.blm1{
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	font-size: 24px;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	box-shadow: 0 -10px 5px black;
+}
+.blm1 a{
+	text-decoration: none;	
+}
+.blm1 a:visited{
+	color: black;
+}
+.blm1:hover{
+	transform: translateY(-10px);
+}
+
+.nasio{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	font-size:20px;
+	width: 250px;
+	height: 350px;
+	border: 1px solid black;
+	padding: 10px;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px black;
+}
